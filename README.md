@@ -26,3 +26,9 @@ const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
 ```
+
+такое применение мне помогло решить вопрос с индексом, пока что оставлю
+
+```
+refs.body.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length - 1)]
+```
